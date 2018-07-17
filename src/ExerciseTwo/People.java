@@ -16,4 +16,9 @@ public class People {
         String toPrint = "Name: " + name + " Age: " + age + " Job Title: " + jobTitle;
         return toPrint;
     }
+
+//    @Override
+//    public boolean equals(){
+//
+//    }
 }

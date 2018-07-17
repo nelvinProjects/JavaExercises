@@ -2,7 +2,7 @@ package ExerciseTwo;
 
 import java.util.ArrayList;
 
-public class AppTwo {
+public class StartExercises {
     public ArrayList<People> storePeople = new ArrayList<>();
     public ArrayList<Person> storePerson = new ArrayList<>();
     public ArrayList<String> readPerson = new ArrayList<>();
@@ -42,9 +42,9 @@ public class AppTwo {
         return false;
     }
 
-    public People findPerson(String name){
-        for (People i : storePeople){
-            if (i.name.equals(name)){
+    public People findPerson(String name) {
+        for (People i : storePeople) {
+            if (i.name.equals(name)) {
                 return i;
             }
         }

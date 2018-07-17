@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c5d9d67-1975-46b5-8199-b642439a2f5b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExerciseTwo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseTwo/StartExercisesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises/ExerciseTwo/AppTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises/ExerciseTwo/AppTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/ExerciseTwo/AppTwo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Exercises/ExerciseTwo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises/ExerciseTwo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseTwo/StartExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExerciseTwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseTwo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExerciseTwo/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseTwo/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,34 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="100" column="58" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
+            <state relative-caret-position="170">
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kim.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kim.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="AppTwo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java">
+      <file leaf-file-name="StartExercises.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/StartExercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="368">
+              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/Person.java">
+      <file leaf-file-name="StartExercisesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/StartExercisesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="419">
+              <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="People.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/People.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -61,6 +68,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -72,7 +81,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/App.java" />
         <option value="$PROJECT_DIR$/src/ExerciseOne/App.java" />
-        <option value="$PROJECT_DIR$/src/ExerciseTwo/People.java" />
         <option value="$PROJECT_DIR$/src/ExerciseTwo/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/ExerciseTwo/Car.java" />
         <option value="$PROJECT_DIR$/src/ExerciseTwo/Motorcycle.java" />
@@ -81,13 +89,18 @@
         <option value="$PROJECT_DIR$/src/ExerciseTwo/PaintWizard.java" />
         <option value="$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java" />
         <option value="$PROJECT_DIR$/src/ExerciseTwo/Person.java" />
+        <option value="$PROJECT_DIR$/src/Tests/AppTwoTests.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseTwo/StartExercises.java" />
         <option value="$PROJECT_DIR$/src/ExerciseTwo/Main.java" />
+        <option value="$PROJECT_DIR$/src/Tests/StartExercisesTests.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseTwo/People.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseTwo/StartExercisesTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="992" />
-    <option name="width" value="935" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -124,7 +137,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ExerciseTwo" />
+      <recent name="Tests" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,23 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseOne.App" />
-      <module name="Exercises" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AppTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseTwo.AppTwo" />
-      <module name="Exercises" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExerciseTwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StartExercisesTest.findPerson">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExerciseTwo.Main" />
       <module name="Exercises" />
@@ -166,8 +182,105 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="StartExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseTwo.StartExercises" />
+      <module name="Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciseTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="JUnitRun" type="JUnit" factoryName="JUnit">
+      <module name="Exercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StartExercisesTest.findPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciseTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ExerciseTwo" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTwo.StartExercisesTest" />
+      <option name="METHOD_NAME" value="findPerson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StartExercisesTest.tooHot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciseTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ExerciseTwo" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTwo.StartExercisesTest" />
+      <option name="METHOD_NAME" value="tooHot" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StartExercisesTest.uniqueSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciseTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ExerciseTwo" />
+      <option name="MAIN_CLASS_NAME" value="ExerciseTwo.StartExercisesTest" />
+      <option name="METHOD_NAME" value="uniqueSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -208,15 +321,20 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.AppTwo" />
+      <item itemvalue="JUnit.JUnitRun" />
+      <item itemvalue="Application.StartExercises" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.StartExercisesTest.uniqueSum" />
+      <item itemvalue="JUnit.StartExercisesTest.tooHot" />
+      <item itemvalue="JUnit.StartExercisesTest.findPerson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StartExercisesTest.findPerson" />
+        <item itemvalue="JUnit.StartExercisesTest.tooHot" />
+        <item itemvalue="JUnit.StartExercisesTest.uniqueSum" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AppTwo" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.StartExercises" />
       </list>
     </recent_temporary>
   </component>
@@ -252,11 +370,50 @@
       <option name="project" value="LOCAL" />
       <updated>1531836305975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working with Files complete">
+      <created>1531838528113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531838528113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StartExercisesTest_tooHot - 2018.07.17 at 16h 27m 39s.xml">
+      <configuration name="StartExercisesTest.tooHot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_tooHot - 2018.07.17 at 16h 28m 04s.xml">
+      <configuration name="StartExercisesTest.tooHot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_tooHot - 2018.07.17 at 16h 29m 40s.xml">
+      <configuration name="StartExercisesTest.tooHot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_tooHot - 2018.07.17 at 16h 30m 24s.xml">
+      <configuration name="StartExercisesTest.tooHot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_tooHot - 2018.07.17 at 16h 33m 59s.xml">
+      <configuration name="StartExercisesTest.tooHot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_findPerson - 2018.07.17 at 16h 34m 02s.xml">
+      <configuration name="StartExercisesTest.findPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_findPerson - 2018.07.17 at 16h 34m 14s.xml">
+      <configuration name="StartExercisesTest.findPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_findPerson - 2018.07.17 at 16h 35m 02s.xml">
+      <configuration name="StartExercisesTest.findPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_findPerson - 2018.07.17 at 16h 39m 26s.xml">
+      <configuration name="StartExercisesTest.findPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StartExercisesTest_findPerson - 2018.07.17 at 17h 20m 27s.xml">
+      <configuration name="StartExercisesTest.findPerson" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="992" y="0" width="935" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -272,7 +429,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893288" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18857142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18052517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -295,7 +452,8 @@
     <MESSAGE value="All Garage tasks complete" />
     <MESSAGE value="Added Garage remove type method" />
     <MESSAGE value="Done Paint Wizard" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done Paint Wizard" />
+    <MESSAGE value="Working with Files complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with Files complete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ExerciseOne/App.java">
@@ -305,7 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/StartExercises.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
@@ -376,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/StartExercises.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
@@ -488,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/PaintWizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -521,15 +672,18 @@
     <entry file="file://$PROJECT_DIR$/Dim.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/AppTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kim.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/StartExercisesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/Person.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,10 +694,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="100" column="58" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
+        <state relative-caret-position="170">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="59" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/StartExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseTwo/StartExercisesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Exercises</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

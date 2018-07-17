@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        AppTwo level2 = new AppTwo();
+        StartExercises level2 = new StartExercises();
 //        System.out.println("Blackjack: " + level2.blackjack(23, 1));
 //        System.out.println("Blackjack: " + level2.blackjack(1, 23));
 //        System.out.println("Blackjack: " + level2.blackjack(21, 20));
@@ -64,36 +64,36 @@ public class Main {
         level2.storePerson.add(new Person("Zim", "Driver", 40));
         level2.storePerson.add(new Person("Dim", "Receptionist", 27));
 
-        try{
+        try {
             File file;
             FileWriter fw;
             BufferedWriter writer;
-            for (Person each: level2.storePerson){
-                file = new File(each.name+".txt");
+            for (Person each : level2.storePerson) {
+                file = new File(each.name + ".txt");
                 fw = new FileWriter(file);
                 writer = new BufferedWriter(fw);
-                writer.write("Name: " + each.name + ", Occupation: "+ each.occupation+
-                ", Age: "+ each.age);
+                writer.write("Name: " + each.name + ", Occupation: " + each.occupation +
+                        ", Age: " + each.age);
                 writer.close();
                 fw.close();
             }
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
 
-        try{
+        try {
             FileReader fr;
             BufferedReader reader;
             String eachLine;
-            for (Person each : level2.storePerson){
-                fr = new FileReader(each.name+".txt");
+            for (Person each : level2.storePerson) {
+                fr = new FileReader(each.name + ".txt");
                 reader = new BufferedReader(fr);
-                while ((eachLine = reader.readLine()) != null){
+                while ((eachLine = reader.readLine()) != null) {
                     String[] splitted = eachLine.split(",");
                     String build = null;
-                    for (int i =0; i < splitted.length; i++){
+                    for (int i = 0; i < splitted.length; i++) {
                         String[] names = splitted[i].split(":");
                         build += names[1];
                     }
@@ -102,11 +102,11 @@ public class Main {
                 reader.close();
                 fr.close();
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
-        for (String j : level2.readPerson){
+        for (String j : level2.readPerson) {
             System.out.println(j);
         }
 
