@@ -7,12 +7,12 @@ public class Garage {
     public int bill;
 
     public void setup() {
-        Car car1 = new Car(5, 4);
-        Car car2 = new Car(4, 3);
-        Motorcycle bike1 = new Motorcycle(2, 2);
-        Motorcycle bike2 = new Motorcycle(3, 3);
-        Boat boat1 = new Boat("Fishing", 5);
-        Boat boat2 = new Boat("Dinghy", 5);
+        Car car1 = new Car(1, 5, 4);
+        Car car2 = new Car(2, 4, 3);
+        Motorcycle bike1 = new Motorcycle(3, 2, 2);
+        Motorcycle bike2 = new Motorcycle(4, 3, 3);
+        Boat boat1 = new Boat(5,"Fishing", 5);
+        Boat boat2 = new Boat(6,"Dinghy", 5);
         myVehicles.add(car1);
         myVehicles.add(car2);
         myVehicles.add(bike1);
@@ -39,9 +39,24 @@ public class Garage {
         myVehicles.add(vehicle);
     }
 
-    public void remove(Vehicle vehicle) {
-        myVehicles.remove(vehicle);
+    public void remove(int id) {
+        myVehicles.remove(id);
     }
 
+    public int fix(int id){
+        int bill = 0;
+        for (int i = 0; i < myVehicles.size(); i++){
+            if (myVehicles.get(i).id == id){
+                if (myVehicles.get(i) instanceof Car) bill = 2;
+                if (myVehicles.get(i) instanceof Motorcycle) bill = 2;
+                if (myVehicles.get(i) instanceof Boat) bill = 2;
+            }
+        }
+        return bill;
+    }
+
+    public void emptyGarage(){
+        myVehicles.clear();
+    }
 
 }
