@@ -43,6 +43,15 @@ public class Garage {
         myVehicles.remove(id);
     }
 
+    public void removeType(String type){
+        for (int i = 0; i < myVehicles.size(); i++){
+            String temp = myVehicles.get(i).getClass().getName();
+            if (temp.equals("ExerciseTwo."+type)){
+                myVehicles.remove(i);
+            }
+        }
+    }
+
     public int fix(int id){
         int bill = 0;
         for (int i = 0; i < myVehicles.size(); i++){

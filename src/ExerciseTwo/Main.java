@@ -41,15 +41,19 @@ public class Main {
 //
 //        System.out.println(level2.findPerson("Lim"));
 
-        Garage garage = new Garage();
-        garage.setup();
-        garage.calculateBill();
-        garage.add(new Car(7, 6, 6));
-        System.out.println(garage.fix(2));
-        System.out.println("Before removing vehicle" + garage.myVehicles.size());
-        garage.remove(1);
-        System.out.println("After removing vehicle" + garage.myVehicles.size());
-        garage.emptyGarage();
-        System.out.println("Remove all vehicle" + garage.myVehicles.size());
+//        Garage garage = new Garage();
+//        garage.setup();
+//        garage.calculateBill();
+//        garage.add(new Car(7, 6, 6));
+//        System.out.println(garage.fix(2));
+//        System.out.println("Before removing vehicle" + garage.myVehicles.size());
+//        garage.remove(1);
+//        garage.removeType("Car");
+//        System.out.println("After removing vehicle " + garage.myVehicles.size());
+//        garage.emptyGarage();
+//        System.out.println("Remove all vehicle " + garage.myVehicles.size());
+
+        PaintWizard paint = new PaintWizard();
+        paint.bestPaint(50);
     }
 }
