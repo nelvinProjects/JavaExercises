@@ -54,6 +54,6 @@ public class Main {
 //        System.out.println("Remove all vehicle " + garage.myVehicles.size());
 
         PaintWizard paint = new PaintWizard();
-        paint.bestPaint(50);
+        paint.bestPaint(1);
     }
 }
