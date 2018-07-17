@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class AppTwo {
     public ArrayList<People> storePeople = new ArrayList<>();
+    public ArrayList<Person> storePerson = new ArrayList<>();
+    public ArrayList<String> readPerson = new ArrayList<>();
 
     public int blackjack(int firstValue, int secondValue) {
         if (firstValue <= 0 && secondValue <= 0) {

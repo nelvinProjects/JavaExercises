@@ -1,5 +1,7 @@
 package ExerciseTwo;
 
+import java.io.*;
+
 public class Main {
     public static void main(String[] args) {
         AppTwo level2 = new AppTwo();
@@ -53,7 +55,60 @@ public class Main {
 //        garage.emptyGarage();
 //        System.out.println("Remove all vehicle " + garage.myVehicles.size());
 
-        PaintWizard paint = new PaintWizard();
-        paint.bestPaint(1);
+//        PaintWizard paint = new PaintWizard();
+//        paint.bestPaint(1);
+
+        level2.storePerson.add(new Person("Tim", "Chef", 30));
+        level2.storePerson.add(new Person("Kim", "Waiter", 20));
+        level2.storePerson.add(new Person("Sim", "Teacher", 35));
+        level2.storePerson.add(new Person("Zim", "Driver", 40));
+        level2.storePerson.add(new Person("Dim", "Receptionist", 27));
+
+        try{
+            File file;
+            FileWriter fw;
+            BufferedWriter writer;
+            for (Person each: level2.storePerson){
+                file = new File(each.name+".txt");
+                fw = new FileWriter(file);
+                writer = new BufferedWriter(fw);
+                writer.write("Name: " + each.name + ", Occupation: "+ each.occupation+
+                ", Age: "+ each.age);
+                writer.close();
+                fw.close();
+            }
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+        try{
+            FileReader fr;
+            BufferedReader reader;
+            String eachLine;
+            for (Person each : level2.storePerson){
+                fr = new FileReader(each.name+".txt");
+                reader = new BufferedReader(fr);
+                while ((eachLine = reader.readLine()) != null){
+                    String[] splitted = eachLine.split(",");
+                    String build = null;
+                    for (int i =0; i < splitted.length; i++){
+                        String[] names = splitted[i].split(":");
+                        build += names[1];
+                    }
+                    level2.readPerson.add(build.substring(5));
+                }
+                reader.close();
+                fr.close();
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        for (String j : level2.readPerson){
+            System.out.println(j);
+        }
+
     }
 }
