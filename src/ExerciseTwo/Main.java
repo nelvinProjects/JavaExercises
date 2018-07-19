@@ -30,18 +30,18 @@ public class Main {
 //        People person3 = new People("Nim", 29, "Driver");
 //        People person4 = new People("Lim", 24, "Waiter");
 //        People person5 = new People("Wim", 30, "Trainee");
-//
+////
 //        level2.storePeople.add(person1);
 //        level2.storePeople.add(person2);
 //        level2.storePeople.add(person3);
 //        level2.storePeople.add(person4);
 //        level2.storePeople.add(person5);
-//
+////
 //        for (People i : level2.storePeople){
 //            System.out.println(i.toString());
 //        }
 //
-//        System.out.println(level2.findPerson("Lim"));
+//        System.out.println(level2.findPerson("Oim"));
 
 //        Garage garage = new Garage();
 //        garage.setup();
@@ -58,57 +58,66 @@ public class Main {
 //        PaintWizard paint = new PaintWizard();
 //        paint.bestPaint(1);
 
-        level2.storePerson.add(new Person("Tim", "Chef", 30));
-        level2.storePerson.add(new Person("Kim", "Waiter", 20));
-        level2.storePerson.add(new Person("Sim", "Teacher", 35));
-        level2.storePerson.add(new Person("Zim", "Driver", 40));
-        level2.storePerson.add(new Person("Dim", "Receptionist", 27));
+//        level2.storePerson.add(new Person("Tim", "Chef", 30));
+//        level2.storePerson.add(new Person("Kim", "Waiter", 20));
+//        level2.storePerson.add(new Person("Sim", "Teacher", 35));
+//        level2.storePerson.add(new Person("Zim", "Driver", 40));
+//        level2.storePerson.add(new Person("Dim", "Receptionist", 27));
+//
+//        try {
+//            File file;
+//            FileWriter fw;
+//            BufferedWriter writer;
+//            for (Person each : level2.storePerson) {
+//                file = new File(each.name + ".txt");
+//                fw = new FileWriter(file);
+//                writer = new BufferedWriter(fw);
+//                writer.write("Name: " + each.name + ", Occupation: " + each.occupation +
+//                        ", Age: " + each.age);
+//                writer.close();
+//                fw.close();
+//            }
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//
+//
+//        try {
+//            FileReader fr;
+//            BufferedReader reader;
+//            String eachLine;
+//            for (Person each : level2.storePerson) {
+//                fr = new FileReader(each.name + ".txt");
+//                reader = new BufferedReader(fr);
+//                while ((eachLine = reader.readLine()) != null) {
+//                    String[] splitted = eachLine.split(",");
+//                    String build = null;
+//                    for (int i = 0; i < splitted.length; i++) {
+//                        String[] names = splitted[i].split(":");
+//                        build += names[1];
+//                    }
+//                    level2.readPerson.add(build.substring(5));
+//                }
+//                reader.close();
+//                fr.close();
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//
+//        for (String j : level2.readPerson) {
+//            System.out.println(j);
+//        }
 
-        try {
-            File file;
-            FileWriter fw;
-            BufferedWriter writer;
-            for (Person each : level2.storePerson) {
-                file = new File(each.name + ".txt");
-                fw = new FileWriter(file);
-                writer = new BufferedWriter(fw);
-                writer.write("Name: " + each.name + ", Occupation: " + each.occupation +
-                        ", Age: " + each.age);
-                writer.close();
-                fw.close();
-            }
+        Integer ag = 5;
+        System.out.println(ag);
+        mod(ag);
+        System.out.println(ag);
+    }
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
-        try {
-            FileReader fr;
-            BufferedReader reader;
-            String eachLine;
-            for (Person each : level2.storePerson) {
-                fr = new FileReader(each.name + ".txt");
-                reader = new BufferedReader(fr);
-                while ((eachLine = reader.readLine()) != null) {
-                    String[] splitted = eachLine.split(",");
-                    String build = null;
-                    for (int i = 0; i < splitted.length; i++) {
-                        String[] names = splitted[i].split(":");
-                        build += names[1];
-                    }
-                    level2.readPerson.add(build.substring(5));
-                }
-                reader.close();
-                fr.close();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        for (String j : level2.readPerson) {
-            System.out.println(j);
-        }
-
+    public static void mod(Integer age){
+        System.out.println(age);
+        age = 7;
     }
 }

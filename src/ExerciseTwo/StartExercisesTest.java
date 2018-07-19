@@ -2,6 +2,7 @@ package ExerciseTwo;
 
 import org.junit.Test;
 
+
 import static org.junit.Assert.*;
 
 public class StartExercisesTest {
@@ -9,10 +10,10 @@ public class StartExercisesTest {
 
     @Test
     public void uniqueSum() {
-        assertEquals(6,startExercises.uniqueSum(1,2,3));
-        assertEquals(0,startExercises.uniqueSum(1,1,1));
-        assertEquals(2,startExercises.uniqueSum(1,1,2));
-        assertEquals(1,startExercises.uniqueSum(1,3,3));
+        assertEquals(6, startExercises.uniqueSum(1, 2, 3));
+        assertEquals(0, startExercises.uniqueSum(1, 1, 1));
+        assertEquals(2, startExercises.uniqueSum(1, 1, 2));
+        assertEquals(1, startExercises.uniqueSum(1, 3, 3));
     }
 
     @Test
@@ -39,9 +40,8 @@ public class StartExercisesTest {
         startExercises.storePeople.add(new People("Wim", 30, "Trainee"));
         String person = "Name: Tim Age: 25 Job Title: Chef";
         String person2 = "Name: Wim Age: 30 Job Title: Trainee";
-
         assertEquals(person, startExercises.findPerson("Tim").toString());
         assertEquals(person2, startExercises.findPerson("Wim").toString());
-        assertEquals(null, startExercises.findPerson("Kim").toString());
+//        assertEquals(NullPointerException.class, startExercises.findPerson("Kim").toString());
     }
 }

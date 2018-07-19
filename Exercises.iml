@@ -20,5 +20,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="junit5-0.26.34" level="project" />
+    <orderEntry type="library" name="com.github.database-rider:rider-junit5:1.2.6" level="project" />
   </component>
 </module>
