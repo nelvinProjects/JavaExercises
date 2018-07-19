@@ -1,21 +1,28 @@
 package LibraryTests;
 
+import Library.Book;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class BookTest {
     @Test
     public void getPublisher() {
+        Book book = new Book(3,"Cars go around", "CarBook", "fiction");
+        Assert.assertEquals("Value doesn't match", "CarBook", book.getPublisher());
     }
 
     @Test
     public void setPublisher() {
+        Book book = new Book(3,"Cars go around", "CarBook", "fiction");
+        book.setPublisher("CarsSin");
+        Assert.assertEquals("Value doesn't match", "carsSin", book.getPublisher());
     }
 
-    @org.junit.jupiter.api.Test
-    void getPublisher1() {
+    @Test
+    public void getGenre() {
     }
 
-    @org.junit.jupiter.api.Test
-    void setPublisher1() {
+    @Test
+    public void setGenre() {
     }
 }

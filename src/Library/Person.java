@@ -4,26 +4,26 @@ public class Person {
     private int customerID;
     private String name;
 
-    public Person(int customerID, String name){
+    public Person(int customerID, String name) {
         this.customerID = customerID;
         this.name = name;
     }
 
-    public int getCustomerID(){
-        return this.customerID;
+    public int getCustomerID() {
+        return customerID;
     }
 
-    public String getCustomerName(){
-        return this.name;
+    public String getCustomerName() {
+        return name;
     }
 
-    public boolean setCustomerID(int newID){
+    public boolean setCustomerID(int newID) {
         this.customerID = newID;
         if (this.customerID == newID) return true;
         else return false;
     }
 
-    public boolean setCustomerName(String newName){
+    public boolean setCustomerName(String newName) {
         this.name = newName;
         if (this.name.equals(newName)) return true;
         else return false;
