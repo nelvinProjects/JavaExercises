@@ -28,4 +28,12 @@ public abstract class LibraryItem {
         if (this.name.equals(newName)) return true;
         else return false;
     }
+
+    @Override
+    public String toString() {
+        return "LibraryItem{" +
+                "itemID=" + itemID +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

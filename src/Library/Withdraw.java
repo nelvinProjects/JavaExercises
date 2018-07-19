@@ -14,4 +14,22 @@ public class Withdraw {
         this.date = date;
         this.returnDate = returnDate;
     }
+
+    public int getCustomerID(){
+        return this.customerID;
+    }
+
+    public int getBookID(){
+        return this.bookID;
+    }
+
+    @Override
+    public String toString() {
+        return "Withdraw{" +
+                "customerID=" + customerID +
+                ", bookID=" + bookID +
+                ", date=" + date +
+                ", returnDate=" + returnDate +
+                '}';
+    }
 }

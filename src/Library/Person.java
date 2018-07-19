@@ -4,6 +4,11 @@ public class Person {
     private int customerID;
     private String name;
 
+    public Person(int customerID, String name){
+        this.customerID = customerID;
+        this.name = name;
+    }
+
     public int getCustomerID(){
         return this.customerID;
     }
