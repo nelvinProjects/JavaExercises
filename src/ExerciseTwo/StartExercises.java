@@ -42,6 +42,7 @@ public class StartExercises {
         return false;
     }
 
+
     public People findPerson(String name) {
         for (People i : storePeople) {
             if (i.name.equals(name)) {

@@ -39,6 +39,15 @@ public class LibraryProcess implements LibraryAction {
         customers.add(p);
     }
 
+    public String getCustomer(int id) {
+        for (int i = 0; i < customers.size(); i++) {
+            if (customers.get(i).getCustomerID() == id) {
+                return customers.get(i).getCustomerID() + " " + customers.get(i).getCustomerName();
+            }
+        }
+        return "null";
+    }
+
     public boolean removeCustomer(int id) {
         for (Person p : customers) {
             if (p.getCustomerID() == id) {
@@ -51,8 +60,8 @@ public class LibraryProcess implements LibraryAction {
 
     @Override
     public boolean removeItem(int id) {
-        for (LibraryItem item : shelf){
-            if (item.getItemID() == id){
+        for (LibraryItem item : shelf) {
+            if (item.getItemID() == id) {
                 shelf.remove(item);
                 return true;
             }
@@ -64,7 +73,7 @@ public class LibraryProcess implements LibraryAction {
 
     @Override
     public boolean addItem(LibraryItem item) {
-        for (LibraryItem i: shelf){
+        for (LibraryItem i : shelf) {
             if (i.getItemID() == item.getItemID()) return false;
         }
         shelf.add(item);
