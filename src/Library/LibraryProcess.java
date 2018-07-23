@@ -67,7 +67,7 @@ public class LibraryProcess implements LibraryAction {
             }
         }
 
-        for (LibraryItem k : shelf) System.out.println(k.toString());
+//        for (LibraryItem k : shelf) System.out.println(k.toString());
         return false;
     }
 

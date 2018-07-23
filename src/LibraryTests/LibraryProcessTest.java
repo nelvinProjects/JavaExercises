@@ -1,7 +1,6 @@
 package LibraryTests;
 
-import Library.LibraryProcess;
-import Library.Person;
+import Library.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -18,8 +17,8 @@ public class LibraryProcessTest {
         LibraryProcess libraryProcess = new LibraryProcess();
         libraryProcess.checkout(1, 5);
         libraryProcess.checkout(2, 4);
-        Assert.assertEquals("Book not checked in", true, libraryProcess.checkIn(1,5));
-        Assert.assertEquals("Book not checked in", false, libraryProcess.checkIn(1,5));
+        Assert.assertEquals("Book not checked in", true, libraryProcess.checkIn(1, 5));
+        Assert.assertEquals("Book not checked in", false, libraryProcess.checkIn(1, 5));
     }
 
     @Test
@@ -43,10 +42,18 @@ public class LibraryProcessTest {
     @Test
     void removeItem() {
         LibraryProcess libraryProcess = new LibraryProcess();
-
+        libraryProcess.addItem(new Book(1, "Book of Squares", "BooksInc", "Action"));
+        libraryProcess.addItem(new Book(2, "Book of Triangle", "BooksIn", "Comedy"));
+        Assert.assertEquals("Book not removed", true, libraryProcess.removeItem(2));
+        Assert.assertEquals("Book not removed", false, libraryProcess.removeItem(2));
     }
 
     @Test
     void addItem() {
+        LibraryProcess libraryProcess = new LibraryProcess();
+        Assert.assertEquals("Book not added", true, libraryProcess.addItem(new Maps(2, "England")));
+        Assert.assertEquals("Book not added", false, libraryProcess.addItem(new Maps(2, "England")));
+        Assert.assertEquals("Book not added", true, libraryProcess.addItem(new Magazine(3, "Cars",
+                "CarsMag", "Vehicles")));
     }
 }
